@@ -21,4 +21,4 @@ Ce dépôt contient les ressources liées à notre travail de maturité sur la *
 
 Pour installer les dépendances : 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt

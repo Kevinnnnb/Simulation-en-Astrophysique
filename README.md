@@ -1,1 +1,1 @@
-# Simulation-en-Astrophysique
+# Simulation en Astrophysique

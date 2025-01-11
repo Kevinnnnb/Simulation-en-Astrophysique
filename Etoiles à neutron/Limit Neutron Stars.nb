@@ -1,0 +1,149 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      4980,        141]
+NotebookOptionsPosition[      4094,        118]
+NotebookOutlinePosition[      4490,        134]
+CellTagsIndexPosition[      4447,        131]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Limite d\[CloseCurlyQuote]Oppenheimer pour les \[EAcute]toiles \
+\[AGrave] neutron", "Title",
+ CellChangeTimes->{{3.943928971514522*^9, 3.943928986430582*^9}, {
+  3.943929196478907*^9, 
+  3.943929236496746*^9}},ExpressionUUID->"5b487036-c288-4f53-a45c-\
+9375bf319a87"],
+
+Cell[TextData[{
+ "Particule ",
+ StyleBox["Astrophysics",
+  IgnoreSpellCheck->True],
+ " - Donald Perkins, page 210 - Equation (7.48)"
+}], "Subtitle",
+ CellChangeTimes->{{3.94392899655917*^9, 3.943929025081167*^9}, {
+  3.943929080995946*^9, 3.943929094515033*^9}, {3.944567655336053*^9, 
+  3.9445676567594013`*^9}},ExpressionUUID->"5d7c2df0-5423-4f3e-88d2-\
+c4cf8e877dd2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"MSun", " ", "=", " ", 
+   RowBox[{"1.9891", " ", "*", " ", 
+    SuperscriptBox["10", "30"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"G", " ", "=", " ", 
+   RowBox[{"6.6738", " ", "*", " ", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "11"}]]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"c", " ", "=", " ", 
+   RowBox[{"2.99792458", " ", "*", 
+    SuperscriptBox["10", "8"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mp", " ", "=", " ", 
+   RowBox[{"1.67262178", " ", "*", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "27"}]]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"h", " ", "=", " ", 
+    RowBox[{"6.62607015", "*", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "34"}]]}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", "\"\<Masse limite pour une \
+\[EAcute]toile \[AGrave] neutron\>\"", "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Mmax", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"(", 
+     FractionBox[
+      RowBox[{"3", 
+       SqrtBox["2"]}], 
+      RowBox[{"8", "Pi"}]], ")"}], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      FractionBox[
+       RowBox[{"h", " ", "c"}], "G"], ")"}], 
+     FractionBox["3", "2"]], 
+    SuperscriptBox["mp", 
+     RowBox[{"-", "2"}]]}]}], " "}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Mrelative", " ", "=", " ", 
+   FractionBox["Mmax", "MSun"]}], " "}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.943928356248809*^9, 3.94392836551085*^9}, {
+   3.943928489761098*^9, 3.943928816394742*^9}, {3.9439288594813023`*^9, 
+   3.943928966314698*^9}, {3.943929102676259*^9, 3.943929180017055*^9}, 
+   3.943929246975423*^9, {3.9439496734956512`*^9, 
+   3.943949696557576*^9}},ExpressionUUID->"d661ed52-43af-4428-9090-\
+32d5a7b82469"],
+
+Cell[BoxData["\<\"Masse limite pour une \[EAcute]toile \[AGrave] \
+neutron\"\>"], "Output",
+ CellChangeTimes->{{3.9439288745205708`*^9, 3.943928885886585*^9}, {
+   3.943928919014085*^9, 3.9439289585953503`*^9}, {3.943929105356982*^9, 
+   3.943929181019595*^9}, 3.9439292483154593`*^9},
+ CellLabel->
+  "Out[113]=",ExpressionUUID->"91511f61-c638-4f50-becd-5cd4231c81af"],
+
+Cell[BoxData["9.798423690594678`*^30"], "Output",
+ CellChangeTimes->{{3.9439288745205708`*^9, 3.943928885886585*^9}, {
+   3.943928919014085*^9, 3.9439289585953503`*^9}, {3.943929105356982*^9, 
+   3.943929181019595*^9}, 3.9439292483159924`*^9},
+ CellLabel->
+  "Out[114]=",ExpressionUUID->"89409d84-f5da-499f-a026-f741427fe378"],
+
+Cell[BoxData["4.92605886611768`"], "Output",
+ CellChangeTimes->{{3.9439288745205708`*^9, 3.943928885886585*^9}, {
+   3.943928919014085*^9, 3.9439289585953503`*^9}, {3.943929105356982*^9, 
+   3.943929181019595*^9}, 3.943929248316461*^9},
+ CellLabel->
+  "Out[115]=",ExpressionUUID->"2ce7470f-e638-4e51-88a9-0da41930d92c"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1067, 731},
+WindowMargins->{{Automatic, 221}, {Automatic, 32}},
+FrontEndVersion->"14.1 pour Mac OS X ARM (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"80f099ec-0249-4605-94f0-b82b570c0ef5"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 274, 5, 96, "Title",ExpressionUUID->"5b487036-c288-4f53-a45c-9375bf319a87"],
+Cell[853, 29, 370, 9, 52, "Subtitle",ExpressionUUID->"5d7c2df0-5423-4f3e-88d2-c4cf8e877dd2"],
+Cell[CellGroupData[{
+Cell[1248, 42, 1796, 50, 260, "Input",ExpressionUUID->"d661ed52-43af-4428-9090-32d5a7b82469"],
+Cell[3047, 94, 368, 6, 33, "Output",ExpressionUUID->"91511f61-c638-4f50-becd-5cd4231c81af"],
+Cell[3418, 102, 326, 5, 33, "Output",ExpressionUUID->"89409d84-f5da-499f-a026-f741427fe378"],
+Cell[3747, 109, 319, 5, 33, "Output",ExpressionUUID->"2ce7470f-e638-4e51-88a9-0da41930d92c"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

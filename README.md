@@ -4,7 +4,8 @@ Ce dépôt contient les ressources liées à notre travail de maturité sur la *
 
 ## Source
 
-Je remercie Anton Motornenko pour son travail qui nous a été très utile.
+Le trvail d'Anton Motornenko qui nous a été très utile
+
 https://github.com/amotornenko/TOVsolver
 
 ## Contenu

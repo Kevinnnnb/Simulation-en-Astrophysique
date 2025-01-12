@@ -1,6 +1,6 @@
 # Simulation en Astrophysique
 
-Ce dépôt contient les ressources liées à notre travail de maturité sur la **modélisation et la simulation de la structure interne des naines blanches (et des étoiles à neutrons)**.
+Ce dépôt contient les ressources liées à notre travail de maturité sur la **modélisation et la simulation de la structure interne des naines blanches (et d'étoiles à neutrons)**.
 
 ## Source
 

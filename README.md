@@ -1,6 +1,12 @@
 # Simulation en Astrophysique
 
-Ce dépôt contient les ressources liées à notre travail de maturité sur la **modélisation et la simulation de la structure interne des naines blanches (et des étoiles à neutrons)**.
+Ce dépôt contient les ressources liées à notre travail de maturité sur la **modélisation et la simulation de la structure interne des naines blanches (et d'étoiles à neutrons)**.
+
+## Source
+
+Le trvail d'Anton Motornenko qui nous a été très utile
+
+https://github.com/amotornenko/TOVsolver
 
 ## Contenu
 
@@ -16,9 +22,8 @@ Ce dépôt contient les ressources liées à notre travail de maturité sur la *
 - Bibliothèques nécessaires (installables via pip3) :
   - `numpy`
   - `matplotlib`
-  - `datetime`
   - `tovsolver`
 
 Pour installer les dépendances : 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt

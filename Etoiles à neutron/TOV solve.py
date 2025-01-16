@@ -15,7 +15,7 @@ print(f'Avec un rayon max de {Rayon} m\n')
 rc('text.latex', preamble=r'\usepackage[helvet]{sfmath} \usepackage{sansmathfonts}')
 plt.rcParams['figure.dpi'] = 150
 
-eos = np.genfromtxt("Neutron stars/TOVsolver/example/example_eos.dat", names=True, skip_header=1)
+eos = np.genfromtxt("eos.dat", names=True, skip_header=1)
 n_arr, p_arr = eos["energy_density"], eos["pressure"]
 
 tov_s = TOV(n_arr, p_arr, plot_eos=False)

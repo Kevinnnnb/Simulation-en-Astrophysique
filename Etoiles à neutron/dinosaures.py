@@ -32,10 +32,7 @@ def dinosaure():
     plt.gca().yaxis.set_major_locator(MultipleLocator(0.25))
     plt.savefig('Graphes/Neutron_Stars/MasseRayon_Neutron_and_Dwarfs.eps', format='eps')
     plt.show()
-
-    data = np.genfromtxt("Resultats_Masse_Rayon.dat", skip_header=1)
-    M_imported = data[:, 1]  # Masse relative (Étoiles à Neutrons)
-
+    
     Mmax = max(M_imported)
 
     print(f'\nLa masse max est {round(Mmax,4)} avec une erreur de {round((Mmax-limit_mass)/limit_mass *100,3)} %')

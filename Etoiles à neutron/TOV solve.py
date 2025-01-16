@@ -4,13 +4,9 @@ from matplotlib import rc
 from tovsolver.tov import *
 from tovsolver.constants import *
 from dinosaures import dinosaure
-from datetime import datetime
 
 deltaR = 100  # [m]
 Rayon = 2e7  # [m]
-
-print(f'\nLa simulation a commencé à : {datetime.now()}')
-print(f'Avec un rayon max de {Rayon} m\n')
 
 rc('text.latex', preamble=r'\usepackage[helvet]{sfmath} \usepackage{sansmathfonts}')
 plt.rcParams['figure.dpi'] = 150
@@ -52,8 +48,6 @@ plt.ylabel(r'${\rm P~(Pa)}$')
 plt.xlabel(r'${\rm Rayon~(km)}$')
 plt.savefig('Graphes/Neutron_Stars/PressionRayon_Neutron.eps', format='eps')
 plt.show()
-
-print(f'\nTerminé à : {datetime.now()}\n')
 
 plt.figure()
 plt.plot(R_arr, m_arr, color="blue", linestyle="-", linewidth=1.5)

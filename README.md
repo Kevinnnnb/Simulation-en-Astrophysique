@@ -22,7 +22,6 @@ https://github.com/amotornenko/TOVsolver
 - Bibliothèques nécessaires (installables via pip3) :
   - `numpy`
   - `matplotlib`
-  - `datetime`
   - `tovsolver`
 
 Pour installer les dépendances : 

@@ -2,12 +2,6 @@
 
 Ce dépôt contient les ressources liées à notre travail de maturité sur la **modélisation et la simulation de la structure interne des naines blanches (et d'étoiles à neutrons)**.
 
-## Source
-
-Le trvail d'Anton Motornenko qui nous a été très utile
-
-https://github.com/amotornenko/TOVsolver
-
 ## Contenu
 
 - **`Naines blanches.xlsm`** : Fichier Excel concernant la simulation des naines blanches
